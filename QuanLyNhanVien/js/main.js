@@ -1,6 +1,6 @@
 var dsnv = [];
 var dataJason = localStorage.getItem("DSNV");
-var arrayNv = JSON.parse(dataJason);
+var arrayNv = JSON.parse(dataJason) || [];
 
 for (var i = 0; i < arrayNv.length; i++) {
   var data = arrayNv[i];
